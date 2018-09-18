@@ -1,0 +1,26 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .green-button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  .red-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+  }
+}
